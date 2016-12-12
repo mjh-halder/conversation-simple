@@ -4,12 +4,12 @@ declared-services:
     label: conversation
     plan: free
 applications:
-- name: conversation-simple
+- name: simple-chat-app-mjh
   command: npm start
   path: .
   memory: 256M
   instances: 1
   services:
-  - my-conversation-service
+  - Conversiation-MJH-Playground
   env:
     NPM_CONFIG_PRODUCTION: false
